@@ -2,6 +2,7 @@ import React,{useRef} from 'react'
 import "./contactme.css"
 import { BsCursor } from "react-icons/bs"
 import emailjs from '@emailjs/browser';
+import {  toast } from 'react-toastify';
 
 
 const ContactMe = () => {
@@ -13,12 +14,11 @@ const ContactMe = () => {
 
       emailjs.sendForm('service_6as7rbi', 'template_2h2715o', form.current,'b_B873Fsn1UPmDAnE')
         .then((result) => {
-            console.log(result.text);
-            console.log("messe send");
             form.current.reset();
+            toast.success("The message has been successfully sent")
 
         }, (error) => {
-            console.log(error.text);
+            toast.error(error.txt);
         });
     };
 

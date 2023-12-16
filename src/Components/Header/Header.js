@@ -8,7 +8,7 @@ const Header = () => {
     const [menu, setMenu] = useState(false);
     const [border, setborder] = useState(false);
 
-    console.log(menu);
+    
 
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);

@@ -4,7 +4,7 @@ import Edu from './Edu'
 import {education} from "./text"
 
 const Education = () => {
-  console.log(education);
+  
   return (
     <div id="education">
         <h2 className='section_heading'>
