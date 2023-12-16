@@ -3,6 +3,8 @@ import "./contactme.css"
 import { BsCursor } from "react-icons/bs"
 import emailjs from '@emailjs/browser';
 import {  toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+  
 
 
 const ContactMe = () => {
