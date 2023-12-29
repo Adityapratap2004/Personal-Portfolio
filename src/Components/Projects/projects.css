@@ -1,5 +1,9 @@
+
+
 #projects{
     background-color: var(--container-color);
+    -webkit-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
     transition: background-color 0.4s;
     /* margin-top: 2rem; */
     margin-top: 2rem;
@@ -20,6 +24,8 @@
 .pro{
     margin: 1rem;
     padding: 1rem 1rem 2rem ;
+    -webkit-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
     transition: background-color 0.4s;
     
 }
@@ -43,9 +49,17 @@
     position: absolute;
     right:0.75rem;
     bottom: -0.75rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
     transition: background-color 0.4s;
 }
 
@@ -77,18 +91,35 @@
     line-height: 1rem;
 }
 
+
 .project_link{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    column-gap:1rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-column-gap:1rem;
+       -moz-column-gap:1rem;
+            column-gap:1rem;
 }
 
 .project_link a{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: var(--text-color);
-    column-gap:0.25rem ;
+    -webkit-column-gap:0.25rem ;
+       -moz-column-gap:0.25rem ;
+            column-gap:0.25rem ;
+    -webkit-transition: color 0.4s;
+    -o-transition: color 0.4s;
     transition: color 0.4s;
 }
 
@@ -99,8 +130,11 @@
 
 @media screen and (min-width: 768px) {
     .project_container{
+      -ms-grid-columns: 350px 4rem 350px;
       grid-template-columns: repeat(2,350px);
-      column-gap: 4rem;
+      -webkit-column-gap: 4rem;
+         -moz-column-gap: 4rem;
+              column-gap: 4rem;
     }
   }
   
@@ -111,6 +145,7 @@
       }
 
       .project_container{
+        -ms-grid-columns: (356px)[3];
         grid-template-columns: repeat(3,356px);
         padding-block:2rem 1rem ;
       }

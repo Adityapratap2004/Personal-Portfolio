@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 import "./header.css"
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
+const resume=process.env.REACT_APP_RESUME
 
 const Header = () => {
 
@@ -116,7 +117,7 @@ const Header = () => {
                         </li>
 
                         <li>
-                            <a href='https://drive.google.com/file/d/1To22QsG4w2lrb8ovl-gLmd_XUeZh5ji-/view?usp=sharing' target="_blank" rel="noreferrer" className='nav_link nav_resume'>Resume</a>
+                            <a href={resume} target="_blank" rel="noreferrer" className='nav_link nav_resume'>Resume</a>
                         </li>
                     </ul>
                     <div className='close' onClick={(e) => { 

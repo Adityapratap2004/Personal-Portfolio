@@ -4,6 +4,9 @@ import { BsCursor } from "react-icons/bs"
 import emailjs from '@emailjs/browser';
 import {  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+const serviceId=process.env.REACT_APP_SERVICE_ID
+const template=process.env.REACT_APP_TEMP
+const key=process.env.REACT_APP_KEY
   
 
 
@@ -14,7 +17,7 @@ const ContactMe = () => {
     const sendEmail = (e) => {
       e.preventDefault();
 
-      emailjs.sendForm('service_6as7rbi', 'template_2h2715o', form.current,'b_B873Fsn1UPmDAnE')
+      emailjs.sendForm(serviceId, template, form.current,key)
         .then((result) => {
             form.current.reset();
             toast.success("The message has been successfully sent")

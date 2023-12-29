@@ -1,6 +1,5 @@
 import React from 'react'
 import "./hero.css"
-// import Img from "../../Images/about-perfil.jpg"
 import Img from "../../Images/adi.jpg"
 import arrow from "../../Images/curved-arrow.svg"
 import line from "../../Images/random-lines.svg"

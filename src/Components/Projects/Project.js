@@ -8,7 +8,7 @@ const Project = ({project}) => {
     <article className='pro'>
         <div className='project_img'>
             <img src={project.imgurl} alt="project" />
-            <a href={project.github} className='arrow_button'>
+            <a href={project.link} className='arrow_button' target="_blank" rel="noreferrer">
                 <BsArrowUpRight/>
             </a>
         </div>  
@@ -18,10 +18,10 @@ const Project = ({project}) => {
             <p >{project.desc}</p>
         </div>
         <div className='project_link'>
-            <a href={project.github}>
+            <a href={project.github} target="_blank" rel="noreferrer">
             <FiGithub/>  View              
             </a>
-            <a href={project.link}>
+            <a href={project.link} target="_blank" rel="noreferrer">
                 <IoEarthOutline/>View
             </a>
         </div>      

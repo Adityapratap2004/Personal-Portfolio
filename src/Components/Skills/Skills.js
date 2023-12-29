@@ -15,7 +15,7 @@ import node from "../../Images/nodejs-icon.png"
 import express from "../../Images/express-js.png"
 import mongodb from "../../Images/mongodb.png"
 import mysql from "../../Images/mysql-icon.png"
-import firebase from "../../Images/firebase-icon.png"
+// import firebase from "../../Images/firebase-icon.png"
 import cpp from "../../Images/cpp-icon.png"
 import c from "../../Images/c-icon.png"
 import js from "../../Images/js-icon.png"
@@ -52,7 +52,7 @@ const Skills = () => {
                             <p> <span><img src={express} alt="express js icon" /></span><span>Express Js</span></p>
                             <p><span><img src={mongodb} alt="mongo db icon" /></span><span>MongoDB</span></p>
                             <p><span><img src={mysql} alt="mysql icon" /></span><span>Mysql</span></p>
-                            <p><span><img src={firebase} alt="firebase icon" /></span><span>FireBase</span></p>
+                            {/* <p><span><img src={firebase} alt="firebase icon" /></span><span>FireBase</span></p> */}
                         </p>
                     </div>
                 </article>
