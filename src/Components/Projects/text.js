@@ -53,13 +53,13 @@ export const project=[
         link:"https://microsoft-clone-aps.netlify.app/",
 
     },
-    {
-        imgurl:"https://res.cloudinary.com/df0gakl8i/image/upload/v1702724396/portfolio/calculatro_photo_d1gifi.png",
-         type:"Website",
-        name:"Calculator",
-        desc:"The Calculator project is a basic web application implemented with HTML, CSS, and JavaScript, providing users with a simple and responsive interface to perform arithmetic calculations effortlessly.",
-        github:"https://github.com/Adityapratap2004/Calculator",
-        link:"https://calculatoraps.netlify.app/",
+    // {
+    //     imgurl:"https://res.cloudinary.com/df0gakl8i/image/upload/v1702724396/portfolio/calculatro_photo_d1gifi.png",
+    //      type:"Website",
+    //     name:"Calculator",
+    //     desc:"The Calculator project is a basic web application implemented with HTML, CSS, and JavaScript, providing users with a simple and responsive interface to perform arithmetic calculations effortlessly.",
+    //     github:"https://github.com/Adityapratap2004/Calculator",
+    //     link:"https://calculatoraps.netlify.app/",
 
-    }
+    // }
 ]
