@@ -4,8 +4,8 @@ export const project=[
         type:"Website",
         name:"Blog Website",
         desc:" Blog Universe is a dynamic web platform enabling users to create and share their knowledge through blog posts. Developed using the MERN stack, it offers a seamless writing and publishing experience, emphasizing user-centric features and fostering a collaborative knowledge sharing community",
-        github:"",
-        link:"",
+        github:"https://github.com/Adityapratap2004/BlogUniverse",
+        link:"https://blog-universe.vercel.app/",
     },
     {
         imgurl:"https://res.cloudinary.com/df0gakl8i/image/upload/v1702714135/portfolio/apsmart_yysttw.png",
