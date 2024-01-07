@@ -102,6 +102,7 @@
   padding: 6px;
   display: -ms-grid;
   display: grid;
+  height: 1.5rem;
   place-items: center;
   -webkit-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
