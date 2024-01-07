@@ -4,8 +4,8 @@ export const project=[
         type:"Website",
         name:"Blog Website",
         desc:" Blog Universe is a dynamic web platform enabling users to create and share their knowledge through blog posts. Developed using the MERN stack, it offers a seamless writing and publishing experience, emphasizing user-centric features and fostering a collaborative knowledge sharing community",
-        github:"",
-        link:"",
+        github:"https://github.com/Adityapratap2004/BlogUniverse",
+        link:"https://blog-universe.vercel.app/",
     },
     {
         imgurl:"https://res.cloudinary.com/df0gakl8i/image/upload/v1702714135/portfolio/apsmart_yysttw.png",
@@ -53,13 +53,13 @@ export const project=[
         link:"https://microsoft-clone-aps.netlify.app/",
 
     },
-    {
-        imgurl:"https://res.cloudinary.com/df0gakl8i/image/upload/v1702724396/portfolio/calculatro_photo_d1gifi.png",
-         type:"Website",
-        name:"Calculator",
-        desc:"The Calculator project is a basic web application implemented with HTML, CSS, and JavaScript, providing users with a simple and responsive interface to perform arithmetic calculations effortlessly.",
-        github:"https://github.com/Adityapratap2004/Calculator",
-        link:"https://calculatoraps.netlify.app/",
+    // {
+    //     imgurl:"https://res.cloudinary.com/df0gakl8i/image/upload/v1702724396/portfolio/calculatro_photo_d1gifi.png",
+    //      type:"Website",
+    //     name:"Calculator",
+    //     desc:"The Calculator project is a basic web application implemented with HTML, CSS, and JavaScript, providing users with a simple and responsive interface to perform arithmetic calculations effortlessly.",
+    //     github:"https://github.com/Adityapratap2004/Calculator",
+    //     link:"https://calculatoraps.netlify.app/",
 
-    }
+    // }
 ]
