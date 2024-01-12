@@ -82,16 +82,19 @@
 }
 
 .social {
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+  /* height: -webkit-max-content;
+  height: -moz-max-content; */
+  height: 220px;
   position: absolute;
   left: -3rem;
   top: 0;
   bottom: 0;
   margin: auto 0;
-  display: -ms-grid;
-  display: grid;
+  /* display: -ms-grid;
+  display: grid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   row-gap: 1rem;
 }
 
@@ -100,9 +103,11 @@
   color: var(--white-color);
   font-size: 1.25rem;
   padding: 6px;
-  display: -ms-grid;
-  display: grid;
+  /* display: -ms-grid;
+  display: grid; */
+
   height: 1.5rem;
+  
   place-items: center;
   -webkit-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
@@ -307,6 +312,6 @@
     right: -5rem;
     height: -webkit-max-content;
     height: -moz-max-content;
-    height: max-content;
+    height: 350px;
   }
 }
