@@ -1,6 +1,6 @@
 import React from 'react'
 import "./hero.css"
-import Img from "../../Images/adi.jpg"
+import Img from "../../Images/adi.png"
 import arrow from "../../Images/curved-arrow.svg"
 import line from "../../Images/random-lines.svg"
 import { FaLinkedinIn } from "react-icons/fa"
