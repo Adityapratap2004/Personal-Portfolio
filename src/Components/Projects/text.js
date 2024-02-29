@@ -16,6 +16,15 @@ export const project=[
         link:"",
 
     },
+    {
+        imgurl:"https://res.cloudinary.com/df0gakl8i/image/upload/v1709226314/chromeextension_dtxkij.png",
+        type:"Chrome Extension",
+        name:"Youtube Notes",
+        desc:"YouTube Notes, a Chrome extension designed to enhance your YouTube experience. This extension allows you to bookmark specific time stamps in videos, enabling you to make notes at those points. The extension features a convenient play button that takes you directly to the bookmarked video and allows you to edit or delete notes.",
+        github:"https://github.com/Adityapratap2004/YoutubeNotes--Extension",
+        link:"https://github.com/Adityapratap2004/YoutubeNotes--Extension",
+
+    },
     
     {
         imgurl:"https://res.cloudinary.com/df0gakl8i/image/upload/v1703175641/portfolio/weather_app_dem8i1.png",
